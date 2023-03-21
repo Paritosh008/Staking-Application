@@ -1,13 +1,9 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+I'm developing a decentralized application in solidity that allows staking ERC20 tokens in ETH. This dapp will allow staking tokens like chainlink, Ether, Wrapped Bitcoin. This project test on Chai.
+The frontend will be built in React js and Moralis and will connect to Metamask wallet.This project deploychoose on Mumbai test network.
 
-Try running some of the following tasks:
+Tech involved- Solidity , Node js ,React, Moralis, Tailwind CSS, Chai, Hardhat, Defi.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+Impact-This Dapp transfer ETH from one account to other account then approve to transfer fund and check transaction details.
 ```
