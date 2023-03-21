@@ -10,35 +10,39 @@ module.exports = {
   //     enabled:true,
   //     runs:200
   //   }
-  
+ // },
   networks:{
     hardhat:{
       chainId:1337
     },
     mumbai:{
-      url:`https://polygon-mumbai.infura.io/v3/${process.env.INFURA_API}`,
-      accounts:[process.env.MAIN_ACCOUNT],
-      chainId:80001,
-    },
- 
-    //go to metamask and select mumbai testnet
-    //go to account details from the three dots option
-    //select export private key
-    //copy and paste pvt key .env Main_account 
-
+          url:`https://polygon-mumbai.infura.io/v3/${process.env.INFURA_API}`,
+          accounts:[process.env.MAIN_ACCOUNT],
+          chainId:80001,
+          
+        },
   }
 }
-    // goerli:{
-    //   url: `https://goerli.infura.io/v3/${process.env.INFURA_API}`,
-    //   accounts:[process.env.MAIN_ACCOUNT],
-    //   chainId: 5,
-    // },
-    // mumbai:{
-    //   url:`https://polygon-mumbai.infura.io/v3/${process.env.INFURA_API}`,
-    //   accounts:[process.env.MAIN_ACCOUNT],
-    //   chainId:80001,
-    // },
+  //   goerli:{
+  //     url: `https://goerli.infura.io/v3/${process.env.INFURA_API}`,
+  //     accounts:[process.env.MAIN_ACCOUNT],
+  //     chainId: 5,
+  //   },
 
+  //   mumbai:{
+  //     url:`https://polygon-mumbai.infura.io/v3/${process.env.INFURA_API}`,
+  //     accounts:[process.env.MAIN_ACCOUNT],
+  //     chainId:80001,
+      
+  //   },
+
+  // },
+  
+ 
+  //   //go to metamask and select mumbai testnet
+  //   //go to account details from the three dots option
+  //   //select export private key
+  //   //copy and paste pvt key .env Main_account
 
   
   // gasReporter:{
@@ -49,4 +53,4 @@ module.exports = {
   //   outputFile:"gasReports.txt",
   //   noColors:true
   // }
-  
+//}
